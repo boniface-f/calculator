@@ -1,0 +1,135 @@
+/**index.wxss**/
+page{
+width: 100%;
+height: 100%;
+background-color: #000;
+}
+.box{
+position: fixed;
+bottom: 0;
+width: 100%;
+
+}
+.display-box{
+  
+  width: 100%;
+  height: 200rpx;
+  border: 1px solid #000;
+  background-color: black;
+}
+.display-box-1{
+  width: 100%;
+
+}
+.count{
+  padding-top: 20rpx;
+  float: right;
+  line-height: 200rpx;
+  font-size:200rpx;
+  margin-right:40rpx;
+  color: #fff;
+  background-color: #000;
+}
+
+.unified{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+.unified text{
+  color: #fff;
+  width: 150rpx;
+  height: 145rpx;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  line-height: 150rpx; 
+  margin: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 2;
+  font-size: 68rpx;
+}
+.js-4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+.js-4 text{
+  color: #fff;
+}
+.merge{
+  height: 150rpx;
+  border: 1px solid #000;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  line-height: 150rpx; 
+  margin: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 5;
+}
+.decimal{
+  height: 150rpx;
+  border: 1px solid #000;
+  border-radius: 50%;
+  line-height: 150rpx; 
+  margin: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 2;
+}
+.equal{
+  height: 150rpx;
+  border: 1px solid #000;
+  border-radius: 50%;
+  line-height: 150rpx; 
+  margin: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 2;
+}
+
+.js-0 text{
+  background-color: #A5A5A5;
+}
+.js-0 text:nth-child(4){
+   background-color: #fd9401;
+}
+.js-1 text{
+  background-color: #333333;
+}
+.js-1 text:nth-child(4){
+   background-color: #fd9401;
+}
+.js-2 text{
+  background-color: #333333;
+}
+.js-2 text:nth-child(4){
+   background-color: #fd9401;
+}
+.js-3 text{
+  background-color: #333333;
+}
+.js-3 text:nth-child(4){
+   background-color: #fd9401;
+}
+.js-4 text{
+  background-color: #333333;
+}
+.js-4 text:nth-child(3){
+   background-color: #fd9401;
+}

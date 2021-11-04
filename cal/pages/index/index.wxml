@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class='box'>
+<!-- 头顶分数 -->
+<view class="display-box">
+  <view class='display-box-1'>
+    <text class='count'style="font-size:{{fontSize}}rpx">{{count}}</text>
+  </view>
+</view>
+
+<!-- 计算面板 -->
+<view class='js-box'>
+
+  <view class='js-0 unified' >
+    <text bindtap='clear' >AC</text>
+    <text data-text="-" bindtap='negative'>+/-</text>
+    <text data-text="%" catchtap='pressView'>{{idh}}</text>
+    <text data-text="÷" catchtap='pressView'>{{idi}}</text>
+  </view>
+
+  <view class='js-1 unified' catchtap='pressView'>
+    <text data-text="7">{{id7}}</text>
+    <text data-text="8">{{id8}}</text>
+    <text data-text="9">{{id9}}</text>
+    <text data-text="x">{{ide}}</text>
+  </view>
+  <view class='js-2 unified' catchtap='pressView'>
+    <text data-text="4">{{id4}}</text>
+    <text data-text="5">{{id5}}</text>
+    <text data-text="6">{{id6}}</text>
+    <text data-text="-">{{idd}}</text>
+  </view>
+  <view class='js-3 unified'  catchtap='pressView'>
+    <text data-text="1">{{id1}}</text>
+    <text data-text="2">{{id2}}</text>
+    <text data-text="3">{{id3}}</text>
+    <text bindtap='Add' data-text="+">{{idc}}</text>
+  </view>
+   <view class='js-4' catchtap='pressView'>
+    <text class='merge' data-text="0">{{id0}}</text>
+    <text class='decimal' data-text=".">{{ida}}</text>
+    <text class='equal' bindtap='equal' >{{idb}}</text>
+  </view>
+  </view>
+</view>

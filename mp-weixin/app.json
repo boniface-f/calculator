@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "计算器",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#ccc"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
